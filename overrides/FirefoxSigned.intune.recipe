@@ -9,7 +9,11 @@
 		<key>LATEST_RELEASE</key>
 		<string>LATEST_FIREFOX_VERSION</string>
 		<key>LOCALE</key>
+<<<<<<< HEAD
 		<string>en-US</string>
+=======
+		<string>de-DE</string>
+>>>>>>> bc33355db96b2a946a089cee49cc5623235a9abf
 		<key>NAME</key>
 		<string>Firefox</string>
 		<key>categories</key>
