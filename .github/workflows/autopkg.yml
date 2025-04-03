@@ -67,7 +67,7 @@ jobs:
             --cleanup ${{ env.AUTOPKG_TOOLS_DIR }}/cleanup_list.json \
             --promote ${{ env.AUTOPKG_TOOLS_DIR }}/promote_list.json \
           env:
-            TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
+            # TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
 
         - name: Get log
           run: |
