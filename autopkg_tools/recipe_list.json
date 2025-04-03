@@ -1,4 +1,5 @@
 [
     "FirefoxSigned.intune.recipe",
-    "UTM.intune.recipe"
+    "UTM.intune.recipe",
+    "GoogleChromePKG.intune.recipe"
 ]
