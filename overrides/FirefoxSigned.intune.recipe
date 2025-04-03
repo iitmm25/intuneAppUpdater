@@ -32,7 +32,7 @@
 				<key>ring</key>
 				<string>testing</string>
 				<key>group_id</key>
-				<string>{GROUP_ID}</string>
+				<string>8c2b06a5-41e7-4dc3-981c-81ee664bc796</string>
 				<key>intent</key>
 				<string>required</string>
 				<key>days</key>
@@ -42,7 +42,7 @@
 				<key>ring</key>
 				<string>beta</string>
 				<key>group_id</key>
-				<string>{GROUP_ID}</string>
+				<string>8c2b06a5-41e7-4dc3-981c-81ee664bc796</string>
 				<key>intent</key>
 				<string>required</string>
 				<key>days</key>
@@ -52,7 +52,7 @@
 				<key>ring</key>
 				<string>pre-prod</string>
 				<key>group_id</key>
-				<string>{GROUP_ID}</string>
+				<string>8c2b06a5-41e7-4dc3-981c-81ee664bc796</string>
 				<key>intent</key>
 				<string>required</string>
 				<key>days</key>
@@ -62,7 +62,7 @@
 				<key>ring</key>
 				<string>production</string>
 				<key>group_id</key>
-				<string>{GROUP_ID}</string>
+				<string>8c2b06a5-41e7-4dc3-981c-81ee664bc796</string>
 				<key>intent</key>
 				<string>required</string>
 			</dict>
