@@ -329,18 +329,18 @@ def main():
     if recipes is None:
         logger.error("Recipe --list or RECIPE_TO_RUN not provided!")
         sys.exit(1)
-    #recipes = parse_recipes(recipes)
-    #for recipe in recipes:
-    #    handle_recipe(recipe, opts)
-    #    if DEBUG:
-    #        logger.debug("Skipping Teams notification - debug is enabled!")
-    #    if TEAMS_WEBHOOK is None:
-    #        logger.log("Skipping Teams notification - webhook url is missing!")
-    #    if not DEBUG and TEAMS_WEBHOOK is not None:
-    #        notify_teams(recipe, opts)
-     #   if not opts.disable_verification:
-     #       if not recipe.verified:
-     #           failures.append(recipe)
+    recipes = parse_recipes(recipes)
+    for recipe in recipes:
+        handle_recipe(recipe, opts)
+        if DEBUG:
+            logger.debug("Skipping Teams notification - debug is enabled!")
+        if TEAMS_WEBHOOK is None:
+            logger.log("Skipping Teams notification - webhook url is missing!")
+        if not DEBUG and TEAMS_WEBHOOK is not None:
+            notify_teams(recipe, opts)
+        if not opts.disable_verification:
+            if not recipe.verified:
+                failures.append(recipe)
 
 
 if __name__ == "__main__":
