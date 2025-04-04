@@ -67,7 +67,8 @@ jobs:
             --cleanup ${{ env.AUTOPKG_TOOLS_DIR }}/cleanup_list.json \
             --promote ${{ env.AUTOPKG_TOOLS_DIR }}/promote_list.json \
           env:
-            TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
+            #TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
+            TEAMS_WEBHOOL: https://prod-56.westeurope.logic.azure.com:443/workflows/9b169e5d7f1646c19aafee84748a1960/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=MirLO1Nih0fnRs3nXkTQNzOMvohqGLUT-3Guwmwy32k
 
         - name: Get log
           run: |
