@@ -336,8 +336,8 @@ def main():
             logger.debug("Skipping Teams notification - debug is enabled!")
         if TEAMS_WEBHOOK is None:
             logger.log("Skipping Teams notification - webhook url is missing!")
-        #if not DEBUG and TEAMS_WEBHOOK is not None:
-        #    notify_teams(recipe, opts)
+        if not DEBUG and TEAMS_WEBHOOK is not None:
+            notify_teams(recipe, opts)
         if not opts.disable_verification:
             if not recipe.verified:
                 failures.append(recipe)
