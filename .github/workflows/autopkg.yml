@@ -24,7 +24,7 @@ jobs:
             TENANT_ID: "fe92fc91-6ec5-4ac0-8234-caadebf2abd5"
             CLIENT_ID: "aaa8b940-c7b2-45b0-8961-4f6bfa834d99"
             AUTOPKG_SHA256: "2ff34daf02256ad81e2c74c83a9f4c312fa2f9dd212aba59e0cef0e6ba1be5c9"
-            AUTOPKG_URL: "https://github.com/autopkg/autopkg/releases/download/v2.7.3/autopkg-2.7.3.pkg"
+            AUTOPKG_URL: "https://github.com/autopkg/autopkg/releases/download/v2.7.2/autopkg-2.7.2.pkg"
             OVERRIDES_DIR: "${{ github.workspace }}/overrides"
             AUTOPKG_TOOLS_DIR: "${{ github.workspace }}/autopkg_tools"
         steps:
